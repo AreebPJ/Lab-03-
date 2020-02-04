@@ -1,0 +1,37 @@
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+nav{
+border: 3px solid black;
+display: flex;
+justify-content: center;
+padding: 12px;
+background-color: white;
+border-radius: 40px;
+}
+ a{
+   display: block;
+   width: 80px;
+   color: #000;
+   padding: 8px 16px;
+   color: black;
+   text-decoration: none;
+
+
+}
+a:hover{
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+
+
+
+}
+img{
+
+}
