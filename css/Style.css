@@ -1,0 +1,78 @@
+/*mobile devices
+*/
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+body{
+  background-color: pink;
+}
+
+nav{
+border: 3px solid black;
+display: none;
+justify-content: center;
+padding: 12px;
+background-color: white;
+border-radius: 40px;
+}
+ a{
+   display: block;
+   width: 80px;
+   color: #000;
+   padding: 8px 16px;
+   color: black;
+   text-decoration: none;
+}
+a:hover{
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+}
+.Menu{
+  display: block;
+  background-color: lightblue;
+  line-height: 2em;
+  font-family: sans-serif;
+}
+.menu-toggle{
+  display: flex;
+}
+
+
+/*.Menu:hover + nav, nav:hover {
+  display: flex;
+  flex-direction: column;
+
+ } */
+
+
+/* laptop or tablet */
+
+@media screen and (min-width: 500px) {
+
+  /* applies to screens wider than 499px */
+
+  body {
+    background: #cfc;
+  }
+  .Menu{
+    display: none;
+  }
+  nav{display: flex;
+  flex-direction: row;}
+}
+
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+  /* applies to screens wider than 999px */
+
+  body {
+    background: #ccf;
+  }
+
+}
